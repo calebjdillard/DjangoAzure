@@ -1,4 +1,3 @@
-azure
 cffi==1.11.4
 cryptography==2.1.4
 azure-storage==0.32.0
