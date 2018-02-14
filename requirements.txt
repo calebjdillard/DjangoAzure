@@ -13,8 +13,4 @@ python-tds==1.8.2
 pytz==2017.2
 six==1.11.0
 dj-database-url==0.4.2
-pycrypto
-
-
-
 urllib3==1.22
