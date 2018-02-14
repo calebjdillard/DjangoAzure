@@ -17,7 +17,8 @@ ADMINS = (
 )
 
 MANAGERS = ADMINS
-
+"""
+DEFAULT DATABASE
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -26,6 +27,17 @@ DATABASES = {
         'PASSWORD': '',
         'HOST': '',
         'PORT': '',
+    }
+}
+"""
+DATABASES = {
+    'default': {
+        'NAME': 'AppTest',
+        'ENGINE': 'sql_server.pyodbc',
+        'HOST': 'cjd.database.windows.net',
+        'USER': 'cdillard',
+        'PASSWORD': 'Kevister1',
+        'PORT': 1433,
     }
 }
 
